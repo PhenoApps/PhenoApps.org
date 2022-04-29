@@ -1,0 +1,15 @@
+- name: Field Book v5.2
+  percentage: 90
+  color: danger
+
+- name: Prospector v1.4
+  percentage: 20
+  color: warning
+
+- name: Coordinate v4.0
+  percentage: 100
+  color: success
+
+- name: Inventory v1
+  percentage: 0
+  color: secondary
