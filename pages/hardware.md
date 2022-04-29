@@ -9,7 +9,7 @@ weight: 3
 
 PhenoApps are compatible with the vast majority of Android phones and tablets that are readily available. Below are a few of the options for specific hardware that can be used with PhenoApps.
 
-<br/><br/>
+<br/>
 
 | Category          | Device                         | MSRP      |
 |:-----------------:|:------------------------------:|-----------|
@@ -19,6 +19,6 @@ PhenoApps are compatible with the vast majority of Android phones and tablets th
 | Barcode scanner   | [Zebra DS2208](https://www.zebra.com/us/en/products/scanners/general-purpose-scanners/handheld/ds2200-series.html)                   | $140      |
 | Scale             | [Ohaus scale](https://us.ohaus.com/en-US/Products/Model-Comparison?id=125095) + [Bluetooth module](https://us.ohaus.com/en-EU/Products/Accessories/Other/Interface-Cables-and-Kits/Bluetooth-Interface-Scout) | $350-$650 |
 
-<br/><br/>
+<br/>
 
  *Last updated 2022-04-28.*

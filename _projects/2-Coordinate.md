@@ -6,4 +6,5 @@ description: Coordinate is a highly-customizable data collection app that is bas
 external_url: https://github.com/PhenoApps/Coordinate
 github: https://github.com/PhenoApps/Coordinate
 docs: https://coordinate.readthedocs.io/en/stable/coordinate.html
+play: https://play.google.com/store/apps/details?id=org.wheatgenetics.coordinate
 ---

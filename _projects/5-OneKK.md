@@ -6,4 +6,5 @@ description: OneKK is an app designed to analyze seed lots. Its name comes from 
 external_url: https://github.com/PhenoApps/OneKK
 github: https://github.com/PhenoApps/OneKK
 docs: https://github.com/PhenoApps/OneKK
+play: https://play.google.com/store/apps/details?id=org.wheatgenetics.onekk
 ---

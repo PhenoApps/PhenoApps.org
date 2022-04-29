@@ -6,4 +6,5 @@ description: Field Book is a simple app for taking phenotypic notes. Collecting 
 external_url: https://github.com/PhenoApps/Field-Book
 github: https://github.com/PhenoApps/Field-Book
 docs: https://github.com/PhenoApps/Field-Book
+play: https://play.google.com/store/apps/details?id=com.fieldbook.tracker
 ---
