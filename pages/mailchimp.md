@@ -1,6 +1,6 @@
 ---
-layout: null
-title: <i class="fab fa-1x fa-mailchimp"></i>
+layout: page
+title: Subscribe
 permalink: /subscribe/
 weight: 5
 ---
