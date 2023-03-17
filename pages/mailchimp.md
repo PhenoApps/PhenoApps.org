@@ -1,6 +1,11 @@
 ---
 layout: null
 title: <i class="fab fa-1x fa-mailchimp"></i>
+permalink: /subscribe/
 weight: 5
-external_url: http://eepurl.com/cwWO25
 ---
+
+## Subscribe
+
+
+{% include subscribe-form.html %}
