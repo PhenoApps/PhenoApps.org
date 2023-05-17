@@ -24,7 +24,7 @@
         {%- assign hardware_desc  = hardware.description -%}
         {%- assign hardware_url   = hardware.html_url -%}
         {%- assign hardware_tools = hardware.topics -%}
-        {%- assign external      = true -%}
+        {%- assign external       = true -%}
 
         {% include hardwares/hardware-card.html %}
 
@@ -49,10 +49,10 @@
 
     {%- if hardware.external_url -%}
       {%- assign hardware_url = hardware.external_url -%}
-      {%- assign external    = true -%}
+      {%- assign external     = true -%}
     {%- else -%}
       {%- assign hardware_url = hardware.url | relative_url -%}
-      {%- assign external    = false -%}
+      {%- assign external     = false -%}
     {%- endif -%}
 
     {% include hardwares/hardware-card.html %}
