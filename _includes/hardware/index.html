@@ -1,0 +1,62 @@
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote hardwares -->
+  {% for remote_hardware in page.remote_hardwares %}
+
+    {%- for repo in site.github.public_repositories -%}
+
+      {%- if remote_hardware == repo.name -%}
+
+        {%- assign hardware = repo -%}
+        {%- assign words = hardware.name | split: '-' -%}
+
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign hardware_type  = "remote" -%}
+        {%- assign hardware_id    = hardware.name -%}
+        {%- assign hardware_img   = false -%}
+        {%- assign hardware_name  = titlecase | strip -%}
+        {%- assign hardware_desc  = hardware.description -%}
+        {%- assign hardware_url   = hardware.html_url -%}
+        {%- assign hardware_tools = hardware.topics -%}
+        {%- assign external      = true -%}
+
+        {% include hardwares/hardware-card.html %}
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {% endfor %}
+
+  <!-- Local hardwares -->
+  {% for hardware in site.hardwares %}
+
+    {%- assign hardware_type  = "local" -%}
+    {%- assign hardware_id    = hardware.name | slugify -%}
+    {%- assign hardware_img   = hardware.image -%}
+    {%- assign hardware_name  = hardware.name -%}
+    {%- assign hardware_desc  = hardware.description -%}
+    {%- assign hardware_tools = hardware.tools -%}
+    {%- assign hardware_docs  = hardware.docs -%}
+    {%- assign hardware_git   = hardware.github -%}
+    {%- assign hardware_play  = hardware.play -%}
+
+    {%- if hardware.external_url -%}
+      {%- assign hardware_url = hardware.external_url -%}
+      {%- assign external    = true -%}
+    {%- else -%}
+      {%- assign hardware_url = hardware.url | relative_url -%}
+      {%- assign external    = false -%}
+    {%- endif -%}
+
+    {% include hardwares/hardware-card.html %}
+
+  {% endfor %}
+
+</div>
