@@ -1,8 +1,8 @@
 ---
-name: Prospector
-tools: [nirs, phenotyping]
-image: ../images/projects/prospector-icon.png
-description: Prospector is an Android app capable of capturing, storing, visualizing, and exporting data from handheld NIR spectrometers. Prospector provides fast, reliable capture of scans for phenotype prediction with a standardized user interface and data export. Prospector allows breeders to rapidly utilize NIRS for phenotyping.
-external_url: https://github.com/PhenoApps/Prospector
-shop: 
+name: Inno-Spectra Spectrometer
+tools: [$2000]
+image: ../images/hardwares/inno-spectra.jpg
+description: 
+external_url: https://inno-spectra.hct.tw/en/product
+shop: https://inno-spectra.hct.tw/en/product
 ---
