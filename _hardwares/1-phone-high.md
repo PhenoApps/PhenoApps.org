@@ -1,10 +1,8 @@
 ---
-name: Prospector
-tools: [nirs, phenotyping]
+name: Pixel 7 Pro
+tools: [$799]
 image: ../images/projects/prospector-icon.png
-description: Prospector is an Android app capable of capturing, storing, visualizing, and exporting data from handheld NIR spectrometers. Prospector provides fast, reliable capture of scans for phenotype prediction with a standardized user interface and data export. Prospector allows breeders to rapidly utilize NIRS for phenotyping.
-external_url: https://github.com/PhenoApps/Prospector
-github: https://github.com/PhenoApps/Prospector
-docs: 
-play: https://play.google.com/store/apps/details?id=org.phenoapps.prospector
+description: 
+external_url: https://store.google.com/product/pixel_7_pro?hl=en-US
+shop: https://store.google.com/product/pixel_7_pro?hl=en-US
 ---

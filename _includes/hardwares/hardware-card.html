@@ -20,21 +20,9 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            {%- if hardware_git -%}
-            <a id="{{ hardware_id }}-git" class="m-1 btn btn-primary btn-md }}" href="{{ hardware_git }}">
-              <i class="fab fa-github fa-2x"></i>
-            </a>
-            {%- endif -%}
-
-            {%- if hardware_docs -%}
-            <a id="{{ hardware_id }}-docs" class="m-1 btn btn-primary btn-md }}" href="{{ hardware_docs }}">
-              <i class="fas fa-book fa-2x"></i>
-            </a>
-            {%- endif -%}
-
-            {%- if hardware_play -%}
+            {%- if hardware_shop -%}
             <a id="{{ hardware_id }}-play" class="m-1 btn btn-primary btn-md }}" href="{{ hardware_play }}">
-              <i class="fab fa-google-play fa-2x"></i>
+              <i class="fas fa-cart-shopping fa-2x"></i>
             </a>
             {%- endif -%}
           </div>
