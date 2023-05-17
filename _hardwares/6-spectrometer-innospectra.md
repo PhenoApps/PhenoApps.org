@@ -1,5 +1,5 @@
 ---
-name: Inno-Spectra Spectrometer
+name: InnoSpectra NIR-S-G1
 tools: [$2000]
 image: ../images/hardwares/inno-spectra.jpg
 description: 

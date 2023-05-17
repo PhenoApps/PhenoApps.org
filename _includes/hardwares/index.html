@@ -1,38 +1,5 @@
 
-<div class="rows m-3 mt-5">
-
-  <!-- Remote hardwares -->
-  {% for remote_hardware in page.remote_hardwares %}
-
-    {%- for repo in site.github.public_repositories -%}
-
-      {%- if remote_hardware == repo.name -%}
-
-        {%- assign hardware = repo -%}
-        {%- assign words = hardware.name | split: '-' -%}
-
-        {%- capture titlecase -%}
-          {%- for word in words -%}
-            {{ word | capitalize | append: ' ' }}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {%- assign hardware_type  = "remote" -%}
-        {%- assign hardware_id    = hardware.name -%}
-        {%- assign hardware_img   = false -%}
-        {%- assign hardware_name  = titlecase | strip -%}
-        {%- assign hardware_desc  = hardware.description -%}
-        {%- assign hardware_url   = hardware.html_url -%}
-        {%- assign hardware_tools = hardware.topics -%}
-        {%- assign external       = true -%}
-
-        {% include hardwares/hardware-card.html %}
-
-      {%- endif -%}
-
-    {%- endfor -%}
-
-  {% endfor %}
+<div class="row m-2">
 
   <!-- Local hardwares -->
   {% for hardware in site.hardwares %}

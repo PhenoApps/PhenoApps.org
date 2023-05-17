@@ -6,7 +6,7 @@ baseurl             : ""                     			# Change to empty quotes if you 
 repository          : PhenoApps/phenoapps.org     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-
+mailchimp-list      : //wheatgenetics.us14.list-manage.com/subscribe/post?u=e6dcddecd0b4a60f7bb39cba7&amp;id=0f0172c6b8&amp
 
 ### Plugins ###
 plugins:
@@ -20,6 +20,7 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - pages/privacy.md
   - pages/terms.md
+  - pages/mailchimp.md
 
 
 ### Author Info ###
