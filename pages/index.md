@@ -27,4 +27,4 @@ The PhenoApps team actively enables these public and private plant breeding prog
 
 ## About
 
-The PhenoApps project is managed by the [Rife Lab](http://www.fieldpheno.org) at [Clemson University](https://www.clemson.edu/).
+The PhenoApps project is managed by the [Rife Lab](http://www.rifelab.org) at [Clemson University](https://www.clemson.edu/).
