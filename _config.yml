@@ -56,6 +56,9 @@ collections:
   hardwares:
     output: true
     permalink: /hardware/:name
+  partners:
+    output: true
+    permalink: /partners/:name
 
 
 ### Analytics ###
