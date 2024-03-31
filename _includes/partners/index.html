@@ -4,13 +4,13 @@
   <!-- Local partners -->
   {% for partner in site.partners %}
 
-    {%- assign partner_type  = "local" -%}
-    {%- assign partner_id    = partner.name | slugify -%}
-    {%- assign partner_img   = partner.image -%}
-    {%- assign partner_name  = partner.name -%}
-    {%- assign partner_desc  = partner.description -%}
-    {%- assign partner_tools = partner.tools -%}
-    {%- assign partner_shop  = partner.shop -%}
+    {%- assign partner_type     = "local" -%}
+    {%- assign partner_id       = partner.name | slugify -%}
+    {%- assign partner_img      = partner.image -%}
+    {%- assign partner_name     = partner.name -%}
+    {%- assign partner_desc     = partner.description -%}
+    {%- assign partner_tools    = partner.tools -%}
+    {%- assign partner_webpage  = partner.webpage -%}
 
     {%- if partner.external_url -%}
       {%- assign partner_url = partner.external_url -%}
