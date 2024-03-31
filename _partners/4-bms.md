@@ -1,5 +1,5 @@
 ---
-name: BMS
+name: Breeding Management System
 tools: [database]
 image: ../images/partners/bms-logo.png
 description: 
