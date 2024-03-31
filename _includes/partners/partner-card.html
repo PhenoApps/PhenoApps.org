@@ -1,0 +1,35 @@
+<div class="col-sm-4 mt-2">
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <div class="partner card text-themed h-100">
+      {%- if partner_img -%}
+      <img id="{{ partner_id }}-img" class="card-img-top" src="{{ partner_img }}" alt="{{ partner_name }}" />
+      {%- endif -%}
+      <div class="card-body">
+        <h5 id="{{ partner_id }}-name" class="card-title">
+            {%- if partner_type == "remote" -%}
+            <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
+            {%- endif -%}
+          {{ partner_name }}
+        </h5>
+        <p id="{{ partner_id }}-desc" class="card-text">{{ partner_desc }}</p>
+        <p id="{{ partner_id }}-tools" class="card-text">
+          {%- for tool in partner_tools -%}
+          <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+          {%- endfor -%}
+        </p>
+
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              {%- if partner_site -%}
+              <a id="{{ partner_id }}-site" class="m-1 btn btn-primary btn-md }}" href="{{ partner_site }}">
+                <i class="fas fa-arrow-up-right-from-square fa-2x"></i>
+              </a>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

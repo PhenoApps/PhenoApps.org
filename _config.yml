@@ -55,7 +55,7 @@ collections:
     permalink: /apps/:name
   hardwares:
     output: true
-    permalink: /hardware2/:name
+    permalink: /hardware/:name
 
 
 ### Analytics ###
@@ -75,6 +75,11 @@ defaults:
   - scope:
       path: ""
       type: "hardwares"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "partners"
     values:
       layout: "page"
   - scope:
