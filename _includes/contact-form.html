@@ -1,14 +1,11 @@
 <html>
   <head>
-      <script src="https://www.google.com/recaptcha/api.js?render=6Leh9f4kAAAAAOXdOcPaZ2366mkXC5EnKA3Pj3De"></script>
-      <script>
-          grecaptcha.ready(function () {
-              grecaptcha.execute('6Leh9f4kAAAAAOXdOcPaZ2366mkXC5EnKA3Pj3De', {action: 'submit'}).then(function (token) {
-                  console.info("got token: " + token);
-                  document.getElementById('g-recaptcha-response').value = token;
-              });
-          });
-      </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit() {
+            document.getElementById("myForm").submit()
+        }
+    </script>
   </head>
   <body>
     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzelojg" method="post">
@@ -19,9 +16,10 @@
         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
         <label for="message">Message</label>
         <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
-        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        <input type="hidden" name="_subject" id="email-subject" value="PhenoApps Contact Form Submission">
       </fieldset>
-      <input type="submit" value="Submit">
+      <button class="g-recaptcha" data-sitekey="6Leh9f4kAAAAAAEwYQy8OaCdAF0brer-p4dqtPuE"
+      data-callback='onSubmit' data-action='submit'>Submit</button>
     </form>
   </body>
 <html>
