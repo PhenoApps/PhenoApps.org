@@ -6,5 +6,6 @@ description: Intercross tracks parental and cross IDs as crosses are made, who m
 external_url: https://github.com/PhenoApps/Intercross
 github: https://github.com/PhenoApps/Intercross
 docs: 
+paper: https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/csc2.20702
 play: https://play.google.com/store/apps/details?id=org.phenoapps.intercross
 ---

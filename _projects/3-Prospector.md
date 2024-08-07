@@ -6,5 +6,6 @@ description: Prospector is an Android app capable of capturing, storing, visuali
 external_url: https://github.com/PhenoApps/Prospector
 github: https://github.com/PhenoApps/Prospector
 docs: 
+paper: https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/ppj2.20024
 play: https://play.google.com/store/apps/details?id=org.phenoapps.prospector
 ---

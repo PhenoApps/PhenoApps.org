@@ -33,6 +33,12 @@
               </a>
               {%- endif -%}
 
+              {%- if project_paper -%}
+              <a id="{{ project_id }}-paper" class="m-1 btn btn-primary btn-md }}" href="{{ project_paper }}">
+                <i class="fas fa-scroll fa-2x"></i>
+              </a>
+              {%- endif -%}
+
               {%- if project_play -%}
               <a id="{{ project_id }}-play" class="m-1 btn btn-primary btn-md }}" href="{{ project_play }}">
                 <i class="fab fa-google-play fa-2x"></i>
