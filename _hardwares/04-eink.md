@@ -1,8 +1,8 @@
 ---
-name: Boox Palma
-tools: [$280]
+name: Boox Palma 2
+tools: [$300]
 image: ../images/hardwares/boox-palma.jpg
 description: 
-external_url: https://shop.boox.com/products/palma
-shop: https://shop.boox.com/products/palma
+external_url: https://shop.boox.com/products/palma2
+shop: https://shop.boox.com/products/palma2
 ---

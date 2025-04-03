@@ -1,8 +1,8 @@
 ---
-name: Pixel 7a
-tools: [$400]
-image: ../images/hardwares/pixel-7a.jpg
+name: Pixel 8a
+tools: [$500]
+image: ../images/hardwares/pixel-8a.jpg
 description: 
-external_url: https://store.google.com/config/pixel_7a?hl=en-US
-shop: https://store.google.com/config/pixel_7a?hl=en-US
+external_url: https://store.google.com/product/pixel_8a
+shop: https://store.google.com/product/pixel_8a
 ---
