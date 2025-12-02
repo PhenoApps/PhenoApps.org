@@ -12,7 +12,6 @@ mailchimp-list      : //wheatgenetics.us14.list-manage.com/subscribe/post?u=e6dc
 plugins:
   - jemoji
 
-
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
@@ -25,6 +24,7 @@ nav_exclude:                                            # The following paths ar
 
 include:
   - pages/.well-known
+  - .well-known
 
 ### Author Info ###
 author:
