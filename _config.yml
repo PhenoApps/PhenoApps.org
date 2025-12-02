@@ -23,6 +23,8 @@ nav_exclude:                                            # The following paths ar
   - pages/mailchimp.md
   - pages/field-book.html
 
+include:
+  - .well-known
 
 ### Author Info ###
 author:
