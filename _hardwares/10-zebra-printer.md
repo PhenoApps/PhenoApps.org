@@ -1,5 +1,5 @@
 ---
-name: Zebra Mobile Printer
+name: Zebra Mobile Printers
 tools: [$600]
 image: ../images/hardwares/zebra-zq500.jpg
 description: 

@@ -1,8 +1,8 @@
 ---
-name: Pixel 8 Pro
+name: Pixel 10 Pro
 tools: [$1000]
-image: ../images/hardwares/pixel-8-pro.jpg
+image: ../images/hardwares/pixel-10-pro.jpg
 description: 
-external_url: https://store.google.com/config/pixel_8_pro?hl=en-US
-shop: https://store.google.com/config/pixel_8_pro?hl=en-US
+external_url: https://store.google.com/product/pixel_10_pro?hl=en-US
+shop: https://store.google.com/product/pixel_10_pro?hl=en-US
 ---
