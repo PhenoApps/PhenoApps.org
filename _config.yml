@@ -99,6 +99,3 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-
-theme_config:
-  appearance: "light"
