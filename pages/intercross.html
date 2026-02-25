@@ -1,0 +1,24 @@
+---
+layout: page
+title: Intercross
+permalink: /intercross
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        var redirectToApp = function() {
+            setTimeout(function appNotInstalled() {
+                window.location.replace("https://play.google.com/store/apps/details?id=org.phenoapps.intercross");
+            }, 5000);
+	    var params = window.location.search + window.location.hash; 
+            window.location.replace("intercross://" + params.replace('#', '?'));
+        };
+        window.onload = redirectToApp;
+    </script>
+</head>
+<body></body>
+</html>
